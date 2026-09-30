@@ -1,0 +1,45 @@
+WinMain() -> Program Started Succesfully
+fillInstanceExtensionNames() -> First call to vkEnumerateInstanceExtensionProperties() completed succesfully
+fillInstanceExtensionNames() -> Second call to vkEnumerateInstanceExtensionProperties() completed succesfully
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_device_group_creation
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_get_physical_device_properties2
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_get_surface_capabilities2
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_surface
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_win32_surface
+fillInstanceExtensionNames() -> Vulkan extension names = VK_EXT_debug_report
+fillInstanceExtensionNames() -> Vulkan extension names = VK_EXT_debug_utils
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_display
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_external_fence_capabilities
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_external_memory_capabilities
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_external_semaphore_capabilities
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_get_display_properties2
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_surface_maintenance1
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_surface_protected_capabilities
+fillInstanceExtensionNames() -> Vulkan extension names = VK_EXT_direct_mode_display
+fillInstanceExtensionNames() -> Vulkan extension names = VK_EXT_surface_maintenance1
+fillInstanceExtensionNames() -> Vulkan extension names = VK_EXT_swapchain_colorspace
+fillInstanceExtensionNames() -> Vulkan extension names = VK_NV_external_memory_capabilities
+fillInstanceExtensionNames() -> Vulkan extension names = VK_KHR_portability_enumeration
+fillInstanceExtensionNames() -> Vulkan extension names = VK_LUNARG_direct_driver_loading
+fillInstanceExtensionNames() -> VK_KHR_SURFACE_EXTENSION_NAME extension found
+fillInstanceExtensionNames() -> VK_KHR_WIN32_SURFACE_EXTENSION_NAME extension found
+fillInstanceExtensionNames() -> enabled VulkanExtensionName = VK_KHR_surface
+fillInstanceExtensionNames() -> enabled VulkanExtensionName = VK_KHR_win32_surface
+createVulkanInstance() -> fillInstanceExtensionNames() completed succesfully
+createVulkanInstance() -> vkCreateInstance() Succeded
+initialize() -> createVulkanInstance() completed succesfully
+getSupportedSurface() -> vkCreateWin32SurfaceKHR() completed succesfully
+initialize() -> getSupportedSurface() completed succesfully
+getPhysicalDevice() -> vkEnumeratePhysicalDevices() first call completed succesfully
+getPhysicalDevice() -> vkEnumeratePhysicalDevices() second call completed succesfully
+getPhysicalDevice() -> is sucessed to free isQueueSurfaceSupported_Array
+getPhysicalDevice() -> is sucessed to free vkQueueFamilyProperties_Array
+getPhysicalDevice() -> is sucessed to select required physical device with graphics supported
+getPhysicalDevice() -> is sucessed to free vkPhysicalDevice_Array
+getPhysicalDevice() -> slecteced physical supports tessellationShader
+getPhysicalDevice() -> slecteced physical supports geometryShader
+initialize() -> getPhysicalDevice() completed succesfully
+WinMain() -> initialize() completed succesfully
+uninitialize() -> vkDestroySurfaceKHR() Succeded
+uninitialize() -> vkDestroyInstance() Succeded
+uninitialize() -> Program Terminated sucessfully
